@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
 p, h2, h3 {
     margin: 0px;
     padding: 0px;
@@ -18,10 +24,11 @@ h3{
     font-weight: 700;
 }
 
-:root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+
+a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
 }
 
 .fa-solid {
@@ -123,7 +130,10 @@ main {
     display: block;
     align-self: flex-end;
     color: black;
-    text-decoration: none;
+}
+
+.hebergements-cards a :hover, .populaires-cards a :hover {
+    text-decoration: underline;
 }
 
 /* INFO GROUP*/
@@ -310,7 +320,6 @@ input {
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    width:100%;
 }
 
 .hebergements-cards img {
@@ -383,6 +392,10 @@ input {
 
 .populaires-cards .card-rating, .hebergements-cards .card-rating {
     margin-bottom: 5px;
+}
+
+.card-content .card-rating :hover{
+    text-decoration: none;
 }
 
 /****** Activités ***********/
