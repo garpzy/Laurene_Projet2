@@ -475,10 +475,11 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 30px
     }
 
     .populaires-cards .card {
-        width: 30%;
+        width: 100%;
     }
 
     .populaires-cards .card-title {
@@ -492,5 +493,10 @@ footer{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px
+    }
 }
