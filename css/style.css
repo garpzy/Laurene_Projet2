@@ -341,6 +341,7 @@ input {
 .hebergements-cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap:30px;
 }
 
@@ -561,6 +562,7 @@ footer{
 
     .search-bar {
         width: 104%;
+        max-width: 400px;
     }
     
     .champs{
@@ -655,5 +657,11 @@ footer{
 
     .footer-content {
         padding: 0px;
+    }
+}
+
+@media (max-width: 372px){
+    .filtre{
+        font-size: 12px;
     }
 }
