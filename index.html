@@ -2,7 +2,6 @@
 <html lang="fr">
 
 <head>
-    <!--TEST COMMIT 2-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
@@ -24,19 +23,7 @@
                 <div class="logo">
                     <a href="#"><img class="contain" src="./images/logo/Booki.png" alt="Booki logo"></a>
                 </div>
-                <!-- menu version liste-->
-                
                 <div class="menu">
-                    <div>
-                    <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
-                    </ul>
-                    </div>
-                </div>
-
-                <!-- menu version div-->
-                <div class="menu-div">
                         <div class="menu-lien">
                             <a href="#hebergements">Hébergements</a>
                             <a href="#activites">Activités</a>
@@ -58,17 +45,22 @@
                     <form class="champs">
                         <input type="text" id="champs-rechercher" name="champs-rechercher" placeholder="Rechercher">     
                     </form>
-                    <!-- test avec balise button <button type="button" class="search-button"> Rechercher</button> -->
-                    <div class="search-button"> <a href="#">Rechercher</a></div>
+                    <!-- test avec balise button -->
+                    <button class="search-button">Rechercher</button> 
+                    <!-- <div class="search-button"> <a href="#">Rechercher</a></div> -->
                     <div class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></div>
                 </div>
                 <div class="filtres-bar"> <!-- Filtres-->
                     <h3>Filtres</h3>
                     <div class="filtres">
-                        <div><a href="#" class="filtre"><i class="fa-solid fa-money-bill-wave"></i>Économique</a></div>
-                        <div><a href="#" class="filtre"><i class="fa-solid fa-person"></i>Familial</a></div>
-                        <div><a href="#" class="filtre"><i class="fa-solid fa-heart"></i>Romantique</a></div>
-                        <div><a href="#" class="filtre"><i class="fa-solid fa-fire"></i>Nos pépites</a></div>
+                        <div class="filtres-ligne">
+                            <div class="filtre"><i class="fa-solid fa-money-bill-wave"></i><a href="#">Économique</a></div>
+                            <div class="filtre"><i class="fa-solid fa-person"></i><a href="#">Familial</a></div>
+                        </div> 
+                        <div class="filtres-ligne">
+                            <div class="filtre"><i class="fa-solid fa-heart"></i><a href="#">Romantique</a></div>
+                            <div class="filtre"><i class="fa-solid fa-fire"></i><a href="#">Nos pépites</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="informations"> <!-- Informations-->
