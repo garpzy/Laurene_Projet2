@@ -277,6 +277,10 @@ input {
     height: 24px;
 }
 
+#info-icon{
+    font-size: 10px;
+}
+
 /* CARDS */
 
 .card {
@@ -402,6 +406,11 @@ input {
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+}
+
+.populaires a {
+    display: flex;
+    flex-direction: row;
 }
 
 .populaires-cards img {
