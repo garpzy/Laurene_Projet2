@@ -29,7 +29,6 @@ h3{
 a {
     text-decoration: none;
     color: inherit;
-    width: 100%;
 }
 
 .fa-solid {
@@ -285,6 +284,7 @@ input {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    width: 100%;
 }
 
 .card-text:hover {
