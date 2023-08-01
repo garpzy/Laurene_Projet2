@@ -8,10 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- je n'ai plus besoin de ça car j'ai mis la ligne de script, mais je le garde car à la fin je ne dois avoir que du html+css
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/4b8ac7191b.js" crossorigin="anonymous"></script> 
 </head>
@@ -35,7 +31,7 @@
         <main>
             <section class="info-group">
                 <div class="headline"> 
-                    <p class="section-title">Trouvez votre hébergement pour des vacances de rêves</p>
+                    <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
                     <p class="legend">En plein centre-ville ou en pleine nature</p>    
                 </div>
                 <div class="search-bar"> <!-- Barre de recherche-->
@@ -45,34 +41,31 @@
                     <form type="submit" class="champs">
                         <input type="text" id="champs-rechercher" name="champs-rechercher" placeholder="Rechercher">     
                     </form>
-                    <!-- test avec balise button -->
                     <button class="search-button">Rechercher</button> 
-                    <!-- <div class="search-button"> <a href="#">Rechercher</a></div> -->
-                    <div class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></div>
+                    <button class="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
                 <div class="filtres-bar"> <!-- Filtres-->
                     <h3>Filtres</h3>
                     <div class="filtres">
                         <div class="filtres-ligne">
-                            <div class="filtre"><i class="fa-solid fa-money-bill-wave"></i><a href="#">Économique</a></div>
-                            <div class="filtre"><i class="fa-solid fa-person"></i><a href="#">Familial</a></div>
+                            <div class="filtre"><a href="#"><i class="fa-solid fa-money-bill-wave"></i>Économique</a></div>
+                            <div class="filtre"><a href="#"><i class="fa-solid fa-person"></i>Familial</a></div>
                         </div> 
                         <div class="filtres-ligne">
-                            <div class="filtre"><i class="fa-solid fa-heart"></i><a href="#">Romantique</a></div>
-                            <div class="filtre"><i class="fa-solid fa-fire"></i><a href="#">Nos pépites</a></div>
+                            <div class="filtre"><a href="#"><i class="fa-solid fa-heart"></i>Romantique</a></div>
+                            <div class="filtre"><a href="#"><i class="fa-solid fa-fire"></i>Nos pépites</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="informations"> <!-- Informations-->
-                        <div class="info"><i class="fa-solid fa-info" id="info-icon"></i></div>
+                        <div class="info-icon"><i class="fa-solid fa-info"></i></div>
                         <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
-            
+            <!-- HEBERGEMENT AND POPULAIRES -->
             <div class="hebergements-and-populaires">
-
                 <section id="hebergements" class="hebergements">
-                    <h2 class="section-title">Hébergements à Marseille</h2>
+                    <h2>Hébergements à Marseille</h2>
                     <div> <!--ligne 1-->
                         <div class="hebergements-cards">
                             <article class="card">
@@ -206,7 +199,7 @@
 
                 <section class="populaires">
                     <div class="populaires-title">
-                        <h2 class="section-title">Les plus populaires</h2>
+                        <h2>Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
                     <div class="populaires-cards">
@@ -272,9 +265,9 @@
                     </div>
                 </section>
             </div>
-
+            <!-- ACTIVITÉS -->
             <section id="activites" class="activites">
-               <h2 class="section-title">Activités à Marseille</h2>
+               <h2>Activités à Marseille</h2>
                 <div class="activites-cards">
                     <article class="card">
                         <a href="#">
@@ -320,22 +313,23 @@
             </section>
 
         </main>
+        <!-- FOOTER -->
         <footer>
             <div class="footer-content">
-                <h3> À propos</h3>
-                <p>Fonctionnement du site</p>
-                <p>Conditions générales</p>
-                <p>Données et confidentialité</p>
+                <h3>À propos</h3>
+                <p><a href="#">Fonctionnement du site</a></p>
+                <p><a href="#">Conditions générales</a></p>
+                <p><a href="#">Données et confidentialité</a></p>
             </div> 
             <div class="footer-content">
-                <h3> Nos Hébergements</h3>
-                <p>Charte qualité</p>
-                <p>Proposer votre hôtel</p>
+                <h3>Nos Hébergements</h3>
+                <p><a href="#">Charte qualité</a></p>
+                <p><a href="#">Proposer votre hôtel</a></p>
             </div> 
             <div class="footer-content">
-                <h3> Assistance</h3>
-                <p>Centre d'aide</p>
-                <p>Nous contacter</p>
+                <h3>Assistance</h3>
+                <p><a href="#">Centre d'aide</a></p>
+                <p><a href="#">Nous contacter</a></p>
             </div> 
         </footer>
     </div>
