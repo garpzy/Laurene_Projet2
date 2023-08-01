@@ -394,7 +394,7 @@ main {
 }
 
 .populaires-cards .card-subtitle {
-    margin: none;
+    margin: 0px;
 }
 
 .populaires-cards .card-rating, .hebergements-cards .card-rating {
