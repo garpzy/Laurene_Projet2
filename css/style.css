@@ -653,7 +653,7 @@ footer a:hover {
     }
 }
 
-@media (max-width: 372px){
+@media (max-width: 374px){
     .filtre{
         font-size: 12px;
     }
