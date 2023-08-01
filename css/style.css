@@ -173,6 +173,10 @@ main {
     width: 100%;
 }
 
+.champs ::placeholder{
+    font-weight: 400;
+}
+
 .search-button {
     display: flex;
     justify-content: center;
