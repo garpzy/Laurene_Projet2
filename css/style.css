@@ -70,9 +70,9 @@ main {
     gap: 35px;
 }
 
-/***** NAV *****/ 
+/***** HEADER *****/ 
 
-.nav {
+.header {
     display: flex;
     height: 80px;
     width: 100%;
@@ -517,7 +517,7 @@ footer a:hover {
         padding: 0px;
     }
 
-    .nav{
+    .header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
